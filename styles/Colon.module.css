@@ -1,0 +1,39 @@
+.colon {
+    background-color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(73, 73, 73);
+}
+
+.colon:hover {
+    cursor: pointer;
+    background-color: rgba(3, 3, 3, 0.212);
+}
+
+.el {
+    padding: 3px;
+    white-space: nowrap;
+}
+
+.elLabel {
+    min-width: 30px;
+    max-width: auto;
+    background-color: rgba(0, 0, 0, 0.527);
+    height: 30px;
+    border: 1px solid rgb(73, 73, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+.elColon {
+    min-width: 30px;
+    border-color: white;
+    height: 30px;
+    border: 1px solid rgb(73, 73, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
